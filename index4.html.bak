@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<!-- Umozliwienie uzywania polskich znakow -->
+		<meta charset="UTF-8">
+		<!-- Wyswietlanie na telefonie -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- tytuł strony (tez w wynikach wyszukiwania) -->
+		<title>RestPlay.pl - Strona Główna</title>
+		<!-- Czcionka -->
+		<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap" rel="stylesheet">
+		<!-- Ikonka strony-->
+		<link rel="icon" href="favicon.ico">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="style.css">
+	
+	</head>
+	
+	<body color="white">
+		<div id="wrapper">
+		
+			<nav>
+				<a class="menu" href="C:\Users\prmsr\Desktop\Stronka\index.html">Główna</a><a class="menu" href="C:\Users\prmsr\Desktop\Stronka\index2.html">Aktualności</a><a class="menu" href="C:\Users\prmsr\Desktop\Stronka\index3.html">Administracja</a><a class="menu active" href="C:\Users\prmsr\Desktop\Stronka\index4.html">Discord</a>
+			</nav>
+			
+			<header>
+				<img src="Discord.bmp" alt="Discord"/>
+			</header>
+			
+			<section>
+				<article>
+					<a class="discord" href="https://discord.gg/DqAB2sEgUz">Kliknij aby dołączyć!</a>
+					
+					<h2>Co czeka Cie na Discord?</h2>
+					<p6>- Luźna atmosfera do pogadania/pisania</p6>
+					<p6>- Możliwość porozmawiania z Administracją</p6>
+					<p6>- Pomoc online</p6>
+					<p6>- Ogłoszenia o konkursach/eventach</p6>
+					<p>Zapraszamy!</p>
+				</article>
+				<!-- tutaj iframe -->
+			</section>
+			
+			<footer>
+				<div class=".footer-content">
+					<img src="favicon.ico" alt="restplay.ico">
+					<h4>RestPlay.PL</h4>
+				</div>
+				<div class="footer-botttom">
+					<p4>Copyright &copy;2023 RestPlay.</p4>
+				</div>
+			</footer>
+			
+		</div>
+	</body>
+
+</html>

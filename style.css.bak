@@ -1,0 +1,180 @@
+		/* OGOLNE */
+
+* {
+	margin: 0; 
+	padding: 0;
+	font-family: Geologica, arial;
+	box-sizing: border-box;
+}
+
+body{
+	background: #fff;
+}
+
+#wrapper {
+	max-width: 1368px;
+	margin: 0 auto 0 auto;
+}
+
+nav 
+{
+	background-color: black;
+}
+
+
+/*  klasy A  / menu  */
+
+
+nav a {}
+
+a.menu 
+{
+	max-width: 1368px;
+	display: inline-block;
+	width: 25%;
+	padding: 15px 30px 15px 30px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	
+	/*Animacja przy przejezdzaniu myszka*/
+	transition: 0.6s;
+	
+	/*sticky option*/
+	
+}
+
+a.discord {
+	margin: 0 0 0 0;
+	color: green;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+}
+
+a.menu:hover {
+	background-color: red;
+	}
+
+
+/* klasa active  */
+
+
+.active {
+	background-color: red;
+}
+
+/*  Article  */
+
+
+article {
+	text-align: center;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+
+/*	headery  */
+
+
+h {
+	font-size: 25px;
+}
+h1 {
+	margin: 0 10% 20px 10%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+	color: black;
+	
+}
+
+
+h2 {
+	margin: 20px 0 20px 0;
+	text-align: center;
+	font-size: 30px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 30px;
+	margin: 40px 0 0 0;
+	font-weight: bolder;
+	color: #11f018;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	text-align: center;
+	font-size: 25px;
+	margin: 0 0 40px 0;
+	font-weight: lighter;
+}
+
+h6 {
+	font-size:45px;
+	color: black;
+	font-weight: bolder;
+}
+
+
+/*   klasy P  */
+
+
+p {
+	text-align: center;
+	margin: 0 0 0 0;
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+p1 {
+	font-size: 32px;
+}
+
+p2 {
+	color: #f0bc00;
+}
+
+p3 {
+	color: #828282;
+}
+
+p4 {
+	font-size: 15px;
+}
+
+p5 {
+	text-align: center;
+	font-weight: bold;
+}
+
+p6 {
+	font-weight: bold;
+	font-size: 30px;
+	color: #3d3d3d;
+}
+
+
+/*     FOOTER   */
+
+
+footer {
+	background: black;
+	margin: 0 0 0 0;
+	text-align: center;
+	font-style: Geologica;
+	padding: 40px;
+	color: #fff;
+	
+}
+
+.footer-content{
+	display: flex;
+}
+
+/**/
